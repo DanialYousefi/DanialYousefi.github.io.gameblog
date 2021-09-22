@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+
+/* Styling of blog2 */
+
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 4em;
+    align-items: center;
+    max-width: 750px;
+    margin: auto; 
+}
+
+/* Home button */
+
+.home-button {
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 0;
+    background: rgb(255, 255, 255);
+    color: rgb(133, 133, 133);
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    font-style: normal;
+}
+.home-button:hover {
+    background: rgb(94, 255, 0);
+    color: black;
+    font-weight: bold;
+ }
+
+
+.blog2-title {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 0.3em;
+    color: rgb(56, 56, 56);
+}
+
+.smaller-title {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 1em;
+    color: rgb(56, 56, 56);
+}
+
+.blog2-date {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.blog2-content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    color: rgb(56, 56, 56);
+    margin-top: 0em;
+    grid-gap: 1em;
+    line-height: 2em;
+    padding-right: 0em;
+    padding-left: 0em;
+}
+
+.blog2-photo {
+    background: url("../assets/blog2cover.jpg") no-repeat center;
+    background-size: 100%;
+    height: 400px;
+}
+
+.list {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    color: rgb(56, 56, 56);
+    line-height: 2em;
+    padding-right: 0em;
+    padding-left: 0em;
+}
+
+/* photos for blog content */
+
+.photo1 {
+    background: url("../assets/photo1.jpg") no-repeat center;
+    background-size: 100%;
+    height: 1000px;
+}
+
+.photo2 {
+    background: url("../assets/warzone.png") no-repeat center;
+    background-size: 100%;
+    height: 400px;
+}
+
+.photo3 {
+    background: url("../assets/photo3.jpg") no-repeat center;
+    background-size: 100%;
+    height: 400px;
+}
+
+.photo4 {
+    background: url("../assets/knife-hit.jpg") no-repeat center;
+    background-size: 100%;
+    height: 400px;
+}
+
+.photo5 {
+    background: url("../assets/photo5.jpg") no-repeat center;
+    background-size: 100%;
+    height: 400px;
+}
